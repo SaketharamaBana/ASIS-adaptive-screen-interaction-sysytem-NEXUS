@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# Build & Dist
+build/
+dist/
+*.spec.bak
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# MediaPipe model task (downloaded automatically)
+*.task
+
+# Local gesture data samples / temp caches
+gesture_data/
+*.log
