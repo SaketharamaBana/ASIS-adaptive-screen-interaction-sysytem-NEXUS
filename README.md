@@ -17,7 +17,7 @@ NEXUS is a multimodal human-computer interaction system that lets you control a 
 <p align="center">
   <a href="#quick-start"><img src="https://img.shields.io/badge/Quick%20Start-Get%20Started-0EA5E9?style=for-the-badge" alt="Get started" /></a>
   <a href="#features"><img src="https://img.shields.io/badge/Features-Explore-8B5CF6?style=for-the-badge" alt="Explore features" /></a>
-  <a href="https://github.com/SaketharamaBana/ASIS-adaptive-screen-interaction-sysytem-NEXUS"><img src="https://img.shields.io/badge/GitHub-Repository-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub repository" /></a>
+  <a href="https://github.com/SaketharamaBana/ASIS-adaptive-screen-interaction-sysytem-NEXUS" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/GitHub-Repository-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub repository" /></a>
 </p>
 
 > Built for desktop interaction workflows where touchless control is useful, such as presentation control, accessibility, and hands-free productivity.
