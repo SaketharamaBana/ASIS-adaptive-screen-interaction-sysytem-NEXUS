@@ -83,6 +83,24 @@ Action Dispatcher
 Desktop Cursor + Mouse + Hotkeys + Media Control
 ```
 
+## Built-in actions
+
+NEXUS routes gestures through a shared action layer, making it easy to trigger real desktop functions from either a gesture or a custom binding.
+
+| Action | Example trigger | Result |
+| --- | --- | --- |
+| Left click | Thumb + index pinch | Simulates a left mouse click |
+| Right click | Thumb + middle pinch | Simulates a right mouse click |
+| Drag | Hold pinch | Presses and holds the mouse for drag operations |
+| Scroll | Thumb + pinky pinch + vertical movement | Scrolls the active window |
+| Play / Pause | Custom gesture binding | Sends media play/pause command |
+| Mute | Custom gesture binding | Toggles system volume mute |
+| Screenshot | Custom gesture binding | Takes a screenshot |
+| Hotkey | `hotkey:ctrl,shift,s` | Executes custom keyboard shortcut |
+| Precision move | Left-hand pinch | Slows cursor motion for fine control |
+
+Custom actions are defined through the binding system and are interpreted by the shared `ActionDispatcher`.
+
 ## Quick start
 
 ### 1) Clone and install
