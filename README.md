@@ -1,559 +1,583 @@
-# 🧠 NEXUS — Adaptive Touchless Interaction & Intelligent Gesture Control System
+# 🧠 NEXUS
+
+### Adaptive Touchless Interaction & Intelligent Gesture Control System
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.10+" />
-  <img src="https://img.shields.io/badge/OpenCV-4.9%2B-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" />
-  <img src="https://img.shields.io/badge/MediaPipe-Hand%20Tracking-FF6F00?style=for-the-badge" alt="MediaPipe" />
-  <img src="https://img.shields.io/badge/PySide6-Desktop%20UI-41CD52?style=for-the-badge&logo=qt&logoColor=white" alt="PySide6" />
-  <img src="https://img.shields.io/badge/AI-Random%20Forest-00C853?style=for-the-badge" alt="Random Forest" />
+
+<img src="https://img.shields.io/badge/NEXUS-AI%20INTERACTION-00E5FF?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/PYTHON-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/COMPUTER%20VISION-ENABLED-7C3AED?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/MACHINE%20LEARNING-RANDOM%20FOREST-00C853?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/STATUS-ACTIVE-00C853?style=for-the-badge"/>
+
 </p>
 
 <p align="center">
-  <strong>Control your desktop naturally — without touching it.</strong>
+
+<strong>Control your computer with your hands.</strong><br/> <em>See. Understand. Decide. Execute.</em>
+
 </p>
 
 <p align="center">
-  Adaptive • Touchless • Multimodal • Real-Time • AI-Assisted
-</p>
 
-<p align="center">
-  <a href="#-quick-start">Quick Start</a> •
-  <a href="#-features">Features</a> •
-  <a href="#-architecture">Architecture</a> •
-  <a href="#-custom-gesture-training">Training</a> •
-  <a href="#-roadmap">Roadmap</a>
+<a href="#-quick-start">🚀 Quick Start</a> • <a href="#-features">✨ Features</a> • <a href="#-architecture">🏗️ Architecture</a> • <a href="#-ai-engine">🧠 AI Engine</a> • <a href="#-roadmap">🗺️ Roadmap</a>
+
 </p>
 
 ---
 
-## 📌 Overview
+## 🌌 Experience NEXUS
 
-**NEXUS (Adaptive Touchless Interaction & Intelligent Gesture Control System)** is a real-time multimodal Human-Computer Interaction (HCI) platform designed to control desktop environments using **hand gestures, voice commands, and AI-assisted gesture recognition**.
+> **NEXUS transforms ordinary webcams and microphones into an intelligent, touchless desktop interface.**
 
-Instead of relying exclusively on a physical mouse and keyboard, NEXUS uses a webcam and microphone to interpret user intent and translate it into operating-system actions.
+Instead of physically touching a mouse or keyboard, users can interact with their computer using:
 
-The system combines:
+**👋 Hand gestures**
 
-* 👋 Real-time hand landmark tracking
-* 🖐️ Custom gesture recognition
-* 🧠 Machine-learning-based gesture classification
-* 🎙️ Offline voice activation
-* 🖱️ Touchless mouse and cursor control
-* ⌨️ Keyboard shortcut automation
-* 🎵 Media control
-* 📸 Screenshot actions
-* 🎛️ Configurable action bindings
-* 🖥️ PySide6 monitoring dashboard
-* 🔄 Gesture-state filtering and smoothing
-* 🛡️ Lightweight liveness/anti-spoofing signals
+**🎙️ Voice commands**
 
-The goal is to create a **natural, low-latency, extensible interaction layer between humans and desktop computers**.
+**🧠 AI-powered custom gestures**
+
+**⚡ Real-time desktop automation**
+
+NEXUS combines **Computer Vision + Machine Learning + Human-Computer Interaction + Desktop Automation** into a single modular platform.
 
 ---
 
-# 🎯 Why NEXUS?
+## 🎬 NEXUS in Action
 
-Traditional desktop interaction depends heavily on physical input devices.
+<p align="center">
 
-NEXUS explores an alternative interaction model:
+<!-- Replace this image with your actual demo GIF -->
+
+<img src="assets/demo/nexus-demo.gif" width="900" alt="NEXUS Demo"/>
+
+</p>
+
+<p align="center">
+<em>Real-time gesture recognition → intent detection → desktop action</em>
+</p>
+
+> 💡 **Tip:** Add a recorded `nexus-demo.gif` under `assets/demo/` to turn this section into an animated product showcase.
+
+---
+
+# ⚡ The NEXUS Experience
 
 ```text
-Human Intent
-     │
-     ▼
-Hand / Voice Input
-     │
-     ▼
-Perception
-     │
-     ▼
-Feature Extraction
-     │
-     ▼
-Gesture / Intent Recognition
-     │
-     ▼
-State Validation & Filtering
-     │
-     ▼
-Action Dispatcher
-     │
-     ▼
-Operating System
+                    ┌───────────────────┐
+                    │      HUMAN        │
+                    │       👋 🎙️       │
+                    └─────────┬─────────┘
+                              │
+                              ▼
+                  ┌─────────────────────┐
+                  │     PERCEPTION      │
+                  │   👁️ Vision + Voice │
+                  └──────────┬──────────┘
+                             │
+                             ▼
+                  ┌─────────────────────┐
+                  │    INTELLIGENCE     │
+                  │ 🧠 Gesture + AI     │
+                  └──────────┬──────────┘
+                             │
+                             ▼
+                  ┌─────────────────────┐
+                  │       FUSION        │
+                  │   Context + State   │
+                  └──────────┬──────────┘
+                             │
+                             ▼
+                  ┌─────────────────────┐
+                  │  ACTION DISPATCHER  │
+                  │   ⚡ Execute Intent  │
+                  └──────────┬──────────┘
+                             │
+                             ▼
+              ┌─────────────────────────────┐
+              │       YOUR COMPUTER        │
+              │ 🖱️  ⌨️  🎵  📸  🖥️        │
+              └─────────────────────────────┘
 ```
-
-This architecture allows NEXUS to evolve beyond simple gesture detection into a broader **multimodal desktop interaction framework**.
 
 ---
 
 # ✨ Features
 
-## 👋 Real-Time Hand Tracking
+<table>
+<tr>
 
-NEXUS uses webcam input and MediaPipe-based hand landmark detection to identify hand position and movement in real time.
+<td width="50%" valign="top">
 
-Capabilities include:
+### 👋 Real-Time Gesture Control
 
-* Hand landmark detection
-* Finger position tracking
-* Pinch detection
-* Distance-based gesture detection
-* Motion analysis
-* Left/right hand interpretation
-* Temporal gesture state tracking
+Control the desktop using natural hand movements.
+
+* Cursor movement
+* Left click
+* Right click
+* Drag
+* Scroll
+* Precision mode
+* Custom gestures
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🧠 AI Gesture Recognition
+
+Teach NEXUS your own gestures.
+
+* Record samples
+* Extract features
+* Train ML model
+* Predict gestures
+* Configure actions
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%" valign="top">
+
+### 🎙️ Voice Interaction
+
+Optional offline wake-word detection.
+
+* Local processing
+* Voice activation
+* Multimodal interaction
+* Command routing
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🖥️ NEXUS Dashboard
+
+Monitor and configure the system through a PySide6 interface.
+
+* Live monitoring
+* Configuration
+* Gesture training
+* System status
+* Action bindings
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%" valign="top">
+
+### ⚡ Desktop Automation
+
+Convert recognized intent into real OS actions.
+
+* Mouse
+* Keyboard
+* Media
+* Screenshots
+* Hotkeys
+* Custom commands
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🛡️ Liveness Layer
+
+Lightweight anti-spoofing signals help improve interaction reliability.
+
+> Not intended to replace biometric authentication.
+
+</td>
+
+</tr>
+</table>
 
 ---
 
-## 🖱️ Touchless Cursor Control
+# 🖐️ Gesture Control Center
 
-Move the desktop cursor using your index fingertip.
+<p align="center">
 
-### Supported interactions
+| Gesture | Meaning                | Action            |
+| :-----: | ---------------------- | ----------------- |
+|    ☝️   | Index movement         | 🖱️ Move cursor   |
+|    🤏   | Thumb + Index          | 🖱️ Left click    |
+|    🤏   | Thumb + Middle         | 🖱️ Right click   |
+|    ✊    | Hold pinch             | 🖱️ Drag          |
+|    🤏   | Thumb + Pinky          | 📜 Scroll         |
+|    🤏   | Left-hand pinch        | 🎯 Precision mode |
+|    🧠   | Custom trained gesture | ⚡ Custom action   |
 
-| Gesture                              | Action                |
-| ------------------------------------ | --------------------- |
-| ☝️ Index fingertip movement          | Cursor movement       |
-| 🤏 Thumb + index pinch               | Left click            |
-| 🤏 Thumb + middle pinch              | Right click           |
-| 🤏 Hold thumb + index                | Drag                  |
-| 🤏 Thumb + pinky + vertical movement | Scroll                |
-| 🤏 Left-hand pinch                   | Precision cursor mode |
-
-NEXUS applies smoothing and filtering to reduce unwanted cursor jitter.
+</p>
 
 ---
 
-# 🧠 AI Gesture Recognition
+# 🎯 Precision Interaction
 
-NEXUS includes a **custom gesture-learning pipeline**.
-
-Users can record their own gestures, extract features, train a machine-learning model, and associate the resulting gesture with a desktop action.
-
-### Pipeline
+Normal cursor movement:
 
 ```text
-Camera
-  ↓
-Hand Landmarks
-  ↓
-Feature Extraction
-  ↓
-Gesture Dataset
-  ↓
-Random Forest Training
-  ↓
-Gesture Prediction
-  ↓
-Confidence Filtering
-  ↓
-Action Binding
+HAND
+ ↓
+FAST MOVEMENT
+ ↓
+CURSOR
 ```
 
-This allows the system to support gestures beyond its built-in interaction rules.
-
----
-
-# 🎙️ Voice Interaction
-
-NEXUS supports optional offline voice activation through **openWakeWord**.
-
-The voice layer is designed to complement gesture interaction rather than replace it.
-
-Example architecture:
+Precision mode:
 
 ```text
-Microphone
-    ↓
-Wake Word Detection
-    ↓
-Voice Intent
-    ↓
-Command Router
-    ↓
-Action Dispatcher
+HAND
+ ↓
+PINCH
+ ↓
+SENSITIVITY ↓
+ ↓
+CONTROL ↑
+ ↓
+ACCURACY ↑
 ```
 
-This creates a multimodal interaction model where users can combine:
+Designed for interaction with:
 
-**gesture + voice + desktop automation**
-
----
-
-# 🤖 Multimodal Interaction
-
-One of NEXUS's core design goals is combining multiple input modalities.
-
-```text
-             ┌──────────────┐
-             │   Webcam     │
-             └──────┬───────┘
-                    │
-                    ▼
-             Hand Perception
-                    │
-                    ▼
-             Gesture Engine
-                    │
-                    │
-                    ▼
-              ┌───────────┐
-              │   Fusion  │
-              │   Layer   │
-              └─────┬─────┘
-                    ▲
-                    │
-             Voice Perception
-                    ▲
-                    │
-             ┌──────┴───────┐
-             │ Microphone   │
-             └──────────────┘
-
-                    │
-                    ▼
-            Intent / Action
-                    │
-                    ▼
-            Action Dispatcher
-                    │
-        ┌───────────┼───────────┐
-        ▼           ▼           ▼
-      Mouse      Keyboard      Media
-```
-
-The modular fusion layer provides a foundation for future context-aware interaction.
-
----
-
-# 🏗️ Architecture
-
-NEXUS follows a modular architecture where perception, processing, decision-making, and execution are separated.
-
-```text
-┌─────────────────────────────────────────────┐
-│                 INPUT LAYER                 │
-├───────────────────┬─────────────────────────┤
-│ Webcam            │ Microphone              │
-└─────────┬─────────┴────────────┬────────────┘
-          │                      │
-          ▼                      ▼
-┌───────────────────┐  ┌──────────────────────┐
-│ Hand Perception   │  │ Voice / Wake Word    │
-│ MediaPipe/OpenCV  │  │ openWakeWord         │
-└─────────┬─────────┘  └──────────┬───────────┘
-          │                       │
-          ▼                       ▼
-┌─────────────────────────────────────────────┐
-│            FEATURE / SIGNAL LAYER            │
-│                                             │
-│ Smoothing • Filtering • Pinch Detection    │
-│ Motion Analysis • Feature Extraction       │
-└──────────────────────┬──────────────────────┘
-                       │
-                       ▼
-┌─────────────────────────────────────────────┐
-│             INTELLIGENCE LAYER              │
-│                                             │
-│ Gesture State Machine                       │
-│ Rule-Based Gestures                         │
-│ Custom ML Gesture Classifier                │
-│ Confidence Filtering                        │
-│ Multimodal Fusion                           │
-└──────────────────────┬──────────────────────┘
-                       │
-                       ▼
-┌─────────────────────────────────────────────┐
-│              ACTION DISPATCHER              │
-├──────────────┬──────────────┬───────────────┤
-│ Mouse        │ Keyboard     │ Media         │
-│ Cursor       │ Hotkeys      │ Screenshot    │
-│ Click        │ Shortcuts    │ Custom Action │
-│ Drag         │              │               │
-│ Scroll       │              │               │
-└──────────────┴──────────────┴───────────────┘
-                       │
-                       ▼
-              ┌─────────────────┐
-              │ Desktop / OS    │
-              └─────────────────┘
-```
-
----
-
-# 🔬 Core Processing Pipeline
-
-The complete NEXUS runtime pipeline is approximately:
-
-```text
-Camera Frame
-     ↓
-Frame Capture
-     ↓
-Hand Landmark Detection
-     ↓
-Landmark Normalization
-     ↓
-Feature Extraction
-     ↓
-Temporal Filtering
-     ↓
-Gesture State Evaluation
-     ↓
-Rule-Based / ML Recognition
-     ↓
-Confidence Validation
-     ↓
-Action Resolution
-     ↓
-Action Dispatcher
-     ↓
-Operating System
-```
-
-For voice:
-
-```text
-Microphone
-     ↓
-Wake Word Detection
-     ↓
-Voice Intent
-     ↓
-Command Resolution
-     ↓
-Action Dispatcher
-```
-
----
-
-# 🖐️ Core Gesture Controls
-
-| Gesture                 | Detection             | Desktop Action |
-| ----------------------- | --------------------- | -------------- |
-| ☝️ Index movement       | Right index fingertip | Move cursor    |
-| 🤏 Thumb + index pinch  | Finger distance       | Left click     |
-| 🤏 Thumb + middle pinch | Finger distance       | Right click    |
-| 🤏 Hold thumb + index   | Persistent pinch      | Drag           |
-| 🤏 Thumb + pinky        | Vertical movement     | Scroll         |
-| ✋ Left-hand pinch       | Left-hand state       | Precision mode |
-| 🧠 Trained gesture      | ML classifier         | Custom action  |
-
----
-
-# ⚡ Precision Cursor Mode
-
-Fast cursor movement is useful for navigation, but precise interaction can be difficult.
-
-NEXUS therefore provides a precision mode that reduces cursor sensitivity.
-
-```text
-Normal Mode
-     ↓
-Fast cursor movement
-
-Precision Mode
-     ↓
-Reduced movement sensitivity
-     ↓
-More accurate positioning
-```
-
-This is particularly useful for:
-
-* Small UI elements
-* Design applications
+* Small buttons
 * Text selection
-* Buttons
+* Design applications
+* Detailed UI elements
 * Fine cursor positioning
 
 ---
 
-# 🎛️ Action Dispatcher
+# 🧠 AI Engine
 
-All interaction commands are routed through a centralized action layer.
+NEXUS contains a local custom gesture-learning pipeline.
 
-This prevents gesture recognition code from becoming tightly coupled to operating-system operations.
+```mermaid
+flowchart LR
 
-Example:
-
-```text
-Gesture
-   ↓
-Recognition
-   ↓
-Action Name
-   ↓
-ActionDispatcher
-   ↓
-OS Operation
+A[📷 Camera] --> B[👋 Hand Landmarks]
+B --> C[📐 Feature Extraction]
+C --> D[🗃️ Gesture Dataset]
+D --> E[🌲 Random Forest]
+E --> F[🎯 Gesture Prediction]
+F --> G[🔎 Confidence Filter]
+G --> H[⚡ Action Dispatcher]
+H --> I[🖥️ Desktop]
 ```
 
-Supported action categories include:
+### Custom Gesture Lifecycle
 
-| Category | Examples                      |
-| -------- | ----------------------------- |
-| Mouse    | Move, click, drag, scroll     |
-| Keyboard | Hotkeys and shortcuts         |
-| Media    | Play/pause, mute              |
-| System   | Screenshot and other commands |
-| Custom   | User-defined bindings         |
-
-This makes the architecture easier to extend.
+```text
+┌─────────────┐
+│   RECORD    │
+└──────┬──────┘
+       ↓
+┌─────────────┐
+│   EXTRACT   │
+│  FEATURES   │
+└──────┬──────┘
+       ↓
+┌─────────────┐
+│    TRAIN    │
+│ RandomForest│
+└──────┬──────┘
+       ↓
+┌─────────────┐
+│   PREDICT   │
+└──────┬──────┘
+       ↓
+┌─────────────┐
+│    BIND     │
+│    ACTION   │
+└─────────────┘
+```
 
 ---
 
-# 🧪 Custom Gesture Training
+# 🎙️ Voice + Vision
 
-NEXUS allows users to create their own gesture vocabulary.
-
-### Step 1 — Record
-
-Open the trainer and define a label.
-
-Example:
+NEXUS is not limited to a single input source.
 
 ```text
-wave
-peace
-thumbs_up
-open_palm
+                 ┌──────────────┐
+                 │    HUMAN     │
+                 └──────┬───────┘
+                        │
+            ┌───────────┴───────────┐
+            │                       │
+            ▼                       ▼
+       👋 HAND INPUT          🎙️ VOICE INPUT
+            │                       │
+            ▼                       ▼
+       COMPUTER VISION         WAKE WORD
+            │                       │
+            └───────────┬───────────┘
+                        ▼
+                 🧠 FUSION ENGINE
+                        │
+                        ▼
+                  INTENT ENGINE
+                        │
+                        ▼
+                ⚡ ACTION ROUTER
+                        │
+                        ▼
+                    DESKTOP
 ```
 
-### Step 2 — Capture Samples
+This architecture allows future development toward context-aware multimodal interaction.
 
-Record multiple examples of the gesture.
+---
+
+# 🏗️ System Architecture
+
+```mermaid
+flowchart TB
+
+CAM[📷 Webcam]
+MIC[🎙️ Microphone]
+
+CAM --> CV[👁️ Computer Vision]
+MIC --> VOICE[🔊 Voice Engine]
+
+CV --> LAND[🖐️ Landmark Detection]
+LAND --> FILTER[〰️ Filtering & Smoothing]
+
+FILTER --> GESTURE[👋 Gesture Engine]
+VOICE --> INTENT[💬 Voice Intent]
+
+GESTURE --> FUSION[🧠 Multimodal Fusion]
+INTENT --> FUSION
+
+FUSION --> ML[🌲 ML Classifier]
+FUSION --> STATE[🔄 Gesture State Machine]
+
+ML --> DISPATCH[⚡ Action Dispatcher]
+STATE --> DISPATCH
+
+DISPATCH --> MOUSE[🖱️ Mouse]
+DISPATCH --> KEYBOARD[⌨️ Keyboard]
+DISPATCH --> MEDIA[🎵 Media]
+DISPATCH --> SCREEN[📸 Screenshot]
+DISPATCH --> CUSTOM[🧩 Custom Actions]
+```
+
+---
+
+# 🔬 Real-Time Processing Pipeline
+
+NEXUS processes interaction signals through several stages.
 
 ```text
-Gesture
-   ↓
-Multiple Frames
-   ↓
-Feature Extraction
-   ↓
+             CAMERA FRAME
+                  │
+                  ▼
+        ┌───────────────────┐
+        │ Frame Acquisition │
+        └─────────┬─────────┘
+                  ▼
+        ┌───────────────────┐
+        │ Hand Detection    │
+        └─────────┬─────────┘
+                  ▼
+        ┌───────────────────┐
+        │ Landmark Tracking │
+        └─────────┬─────────┘
+                  ▼
+        ┌───────────────────┐
+        │ Feature Extraction│
+        └─────────┬─────────┘
+                  ▼
+        ┌───────────────────┐
+        │ Filtering         │
+        │ Smoothing         │
+        └─────────┬─────────┘
+                  ▼
+        ┌───────────────────┐
+        │ Gesture State     │
+        └─────────┬─────────┘
+                  ▼
+        ┌───────────────────┐
+        │ AI Classification │
+        └─────────┬─────────┘
+                  ▼
+        ┌───────────────────┐
+        │ Confidence Check  │
+        └─────────┬─────────┘
+                  ▼
+        ┌───────────────────┐
+        │ Action Dispatcher │
+        └─────────┬─────────┘
+                  ▼
+             DESKTOP OS
+```
+
+---
+
+# 🧩 Action System
+
+All actions pass through a centralized dispatcher.
+
+### Why?
+
+Instead of:
+
+```text
+Gesture → Mouse
+Gesture → Keyboard
+Gesture → Media
+```
+
+NEXUS uses:
+
+```text
+                 GESTURE
+                    │
+                    ▼
+              INTENT / ACTION
+                    │
+                    ▼
+            ACTION DISPATCHER
+             ╱      │      ╲
+            ▼       ▼       ▼
+         Mouse   Keyboard  Media
+```
+
+This makes the system easier to extend.
+
+---
+
+# ⚡ Built-In Actions
+
+| Category     | Supported Operations       |
+| ------------ | -------------------------- |
+| 🖱️ Mouse    | Move, click, drag, scroll  |
+| ⌨️ Keyboard  | Hotkeys, shortcuts         |
+| 🎵 Media     | Play, pause, mute          |
+| 📸 System    | Screenshot                 |
+| 🎯 Precision | Reduced cursor sensitivity |
+| 🧩 Custom    | User-defined actions       |
+
+Example custom binding:
+
+```text
+Gesture: peace
+        ↓
+Action: screenshot
+```
+
+Another:
+
+```text
+Gesture: thumbs_up
+        ↓
+Action: media_play_pause
+```
+
+---
+
+# 🖥️ NEXUS Dashboard
+
+The PySide6 dashboard acts as the central control center.
+
+```text
+┌──────────────────────────────────────────────┐
+│                  NEXUS                       │
+├──────────────────────────────────────────────┤
+│                                              │
+│   ● SYSTEM ONLINE        FPS: 30            │
+│                                              │
+│   ┌──────────────────────────────────────┐   │
+│   │                                      │   │
+│   │          CAMERA PREVIEW              │   │
+│   │                                      │   │
+│   │             👋                       │   │
+│   │                                      │   │
+│   └──────────────────────────────────────┘   │
+│                                              │
+│   Gesture       : INDEX_MOVE                │
+│   Confidence    : 94%                       │
+│   Mode          : PRECISION                 │
+│                                              │
+├──────────────────────────────────────────────┤
+│ Dashboard │ Gestures │ Trainer │ Settings   │
+└──────────────────────────────────────────────┘
+```
+
+The dashboard is intended to provide:
+
+* Live system status
+* Camera monitoring
+* Gesture state
+* Confidence information
+* Configuration
+* Gesture training
+* Action binding
+
+---
+
+# 🧪 Custom Gesture Studio
+
+NEXUS can evolve with the user.
+
+### 01 — Define
+
+```text
+Gesture Name
+     ↓
+"wave"
+```
+
+### 02 — Record
+
+```text
+Camera
+  ↓
+Samples
+  ↓
+Frames
+```
+
+### 03 — Train
+
+```text
 Dataset
-```
-
-### Step 3 — Train
-
-The local training pipeline trains a Random Forest classifier.
-
-```text
-Training Dataset
-       ↓
+  ↓
 Feature Matrix
-       ↓
+  ↓
 Random Forest
-       ↓
-Saved Model
 ```
 
-### Step 4 — Bind
-
-Associate the trained gesture with an action.
-
-Example:
+### 04 — Bind
 
 ```text
-"peace"
+Gesture
+  ↓
+Action
+```
+
+### 05 — Execute
+
+```text
+👋 Wave
    ↓
-Screenshot
+📸 Screenshot
 ```
-
-or:
-
-```text
-"thumbs_up"
-   ↓
-Play / Pause
-```
-
----
-
-# 💻 Command-Line Training
-
-From the `files` directory:
-
-```bash
-python recorder.py wave --samples 5 --frames 15
-```
-
-Then train:
-
-```bash
-python trainer.py
-```
-
-Generated training data is stored locally and is intentionally excluded from the main repository.
-
----
-
-# 📊 Technology Stack
-
-| Technology          | Purpose                       |
-| ------------------- | ----------------------------- |
-| Python 3.10+        | Core application              |
-| OpenCV              | Camera and image processing   |
-| MediaPipe           | Hand landmark tracking        |
-| PySide6             | Desktop dashboard             |
-| Random Forest       | Custom gesture classification |
-| openWakeWord        | Offline wake-word detection   |
-| NumPy               | Numerical processing          |
-| scikit-learn        | Machine learning              |
-| PyAutoGUI / OS APIs | Desktop interaction           |
-
----
-
-# 📁 Project Structure
-
-```text
-ASIS-adaptive-screen-interaction-sysytem-NEXUS/
-│
-├── README.md
-├── .gitignore
-│
-└── files/
-    │
-    ├── main.py
-    ├── config.py
-    ├── capture.py
-    ├── filters.py
-    ├── gestures.py
-    ├── actions.py
-    ├── fusion.py
-    ├── liveness.py
-    ├── voice.py
-    ├── recorder.py
-    ├── trainer.py
-    │
-    ├── requirements.txt
-    ├── NEXUS.spec
-    │
-    └── ui/
-        └── dashboard.py
-```
-
-### Module Responsibilities
-
-| Module         | Responsibility                      |
-| -------------- | ----------------------------------- |
-| `main.py`      | Application entry point             |
-| `capture.py`   | Webcam/frame capture                |
-| `filters.py`   | Signal smoothing and filtering      |
-| `gestures.py`  | Gesture recognition and state logic |
-| `actions.py`   | Desktop action dispatcher           |
-| `fusion.py`    | Multimodal interaction logic        |
-| `liveness.py`  | Lightweight anti-spoofing signals   |
-| `voice.py`     | Voice/wake-word processing          |
-| `recorder.py`  | Gesture dataset collection          |
-| `trainer.py`   | Gesture ML training                 |
-| `config.py`    | Runtime configuration               |
-| `dashboard.py` | PySide6 user interface              |
 
 ---
 
 # 🚀 Quick Start
 
-## 1. Clone the Repository
+## 1. Clone
 
 ```bash
 git clone https://github.com/SaketharamaBana/ASIS-adaptive-screen-interaction-sysytem-NEXUS.git
@@ -565,15 +589,13 @@ cd ASIS-adaptive-screen-interaction-sysytem-NEXUS
 
 ---
 
-## 2. Create a Virtual Environment
+## 2. Create Virtual Environment
 
 ### Windows
 
 ```powershell
 python -m venv .venv
 ```
-
-Activate:
 
 ```powershell
 .\.venv\Scripts\Activate.ps1
@@ -584,8 +606,6 @@ Activate:
 ```bash
 python3 -m venv .venv
 ```
-
-Activate:
 
 ```bash
 source .venv/bin/activate
@@ -599,13 +619,9 @@ source .venv/bin/activate
 cd files
 ```
 
-Upgrade pip:
-
 ```bash
 python -m pip install --upgrade pip
 ```
-
-Install dependencies:
 
 ```bash
 python -m pip install -r requirements.txt
@@ -613,146 +629,183 @@ python -m pip install -r requirements.txt
 
 ---
 
-# ▶️ Running NEXUS
+# ▶️ Run NEXUS
 
-## Dashboard Mode
+### 🖥️ Dashboard
 
 ```bash
 python main.py
 ```
 
-This launches the PySide6 dashboard.
-
----
-
-## CLI / Debug Mode
+### 🐛 Debug / CLI
 
 ```bash
 python main.py --cli
 ```
 
-Use this mode when debugging perception, gesture recognition, or runtime behavior.
+---
+
+# 🎮 Controls
+
+| Key | Action                        |
+| --- | ----------------------------- |
+| `q` | Exit NEXUS                    |
+| `c` | Reset gesture/smoothing state |
 
 ---
 
-# 🎮 Runtime Controls
+# 📚 Custom Gesture Training
 
-| Key | Function                          |
-| --- | --------------------------------- |
-| `q` | Quit                              |
-| `c` | Reset smoothing and gesture state |
+Record a gesture:
 
-Additional controls may depend on the active dashboard configuration.
-
----
-
-# ⚙️ Configuration
-
-Most runtime parameters can be adjusted in:
-
-```text
-files/config.py
+```bash
+python recorder.py wave --samples 5 --frames 15
 ```
 
-Configuration includes:
+Train:
 
-* Camera index
-* Frame resolution
-* Frame processing settings
-* Pinch thresholds
-* Cursor sensitivity
-* Drag delay
-* Scroll sensitivity
-* Smoothing parameters
-* Gesture confidence thresholds
-* Custom action bindings
+```bash
+python trainer.py
+```
 
-Example conceptual configuration:
+Training data is stored locally in:
 
 ```text
-Camera
- ├── Index
- ├── Resolution
- └── FPS
+gesture_data/
+```
 
-Gesture
- ├── Pinch threshold
- ├── Confidence threshold
- └── Gesture timing
+This directory should remain outside the main source repository.
 
-Cursor
- ├── Sensitivity
- ├── Smoothing
- └── Precision multiplier
+---
+
+# 📁 Project Structure
+
+```text
+ASIS-adaptive-screen-interaction-sysytem-NEXUS/
+│
+├── 📄 README.md
+├── 📄 .gitignore
+│
+├── 📁 files/
+│   │
+│   ├── 🐍 main.py
+│   ├── ⚙️ config.py
+│   ├── 📷 capture.py
+│   ├── 〰️ filters.py
+│   ├── 👋 gestures.py
+│   ├── ⚡ actions.py
+│   ├── 🧠 fusion.py
+│   ├── 🛡️ liveness.py
+│   ├── 🎙️ voice.py
+│   ├── 🧪 recorder.py
+│   ├── 🌲 trainer.py
+│   │
+│   ├── 📦 requirements.txt
+│   ├── 📦 NEXUS.spec
+│   │
+│   └── 📁 ui/
+│       └── 🖥️ dashboard.py
+│
+└── 📁 assets/
+    ├── 📁 demo/
+    │   └── nexus-demo.gif
+    ├── 📁 screenshots/
+    └── 📁 architecture/
 ```
 
 ---
 
-# 🧩 Design Principles
+# 🧱 Module Architecture
 
-NEXUS is designed around several engineering principles.
-
-### 1. Modularity
-
-Perception, intelligence, and action execution are separated.
-
-### 2. Low Latency
-
-The runtime pipeline is optimized for responsive interaction.
-
-### 3. Extensibility
-
-New gestures and actions can be added without redesigning the complete system.
-
-### 4. Personalization
-
-Users can train custom gestures for their own workflows.
-
-### 5. Multimodal Interaction
-
-Hand and voice inputs can coexist within the same interaction framework.
-
-### 6. Local Processing
-
-Where supported, perception and voice activation can operate locally without requiring cloud processing.
+| Module         | Responsibility                  |
+| -------------- | ------------------------------- |
+| `main.py`      | Application entry point         |
+| `capture.py`   | Camera acquisition              |
+| `filters.py`   | Smoothing and signal filtering  |
+| `gestures.py`  | Gesture recognition/state logic |
+| `actions.py`   | Desktop action dispatcher       |
+| `fusion.py`    | Multimodal fusion               |
+| `liveness.py`  | Liveness signals                |
+| `voice.py`     | Voice/wake-word processing      |
+| `recorder.py`  | Training data collection        |
+| `trainer.py`   | ML model training               |
+| `config.py`    | System configuration            |
+| `dashboard.py` | PySide6 interface               |
 
 ---
 
-# 🛡️ Liveness & Security
+# 🛠️ Technology Stack
 
-NEXUS includes lightweight liveness/anti-spoofing signals as part of its interaction pipeline.
+<p align="center">
+
+|    Technology    | Role                   |
+| :--------------: | ---------------------- |
+|     🐍 Python    | Core development       |
+|    👁️ OpenCV    | Computer vision        |
+|   🖐️ MediaPipe  | Hand tracking          |
+|  🧠 scikit-learn | Machine learning       |
+| 🌲 Random Forest | Gesture classification |
+| 🎙️ openWakeWord | Wake-word detection    |
+|    🖥️ PySide6   | Dashboard UI           |
+|     🔢 NumPy     | Numerical processing   |
+|  ⚡ Desktop APIs  | OS automation          |
+
+</p>
+
+---
+
+# 🎯 Use Cases
+
+### 🧑‍💻 Productivity
+
+Hands-free desktop interaction.
+
+### 📊 Presentations
+
+Navigate presentations without touching the computer.
+
+### ♿ Accessibility
+
+Explore alternative input mechanisms.
+
+### 🎨 Creative Work
+
+Precision cursor interaction.
+
+### 🧪 HCI Research
+
+Experiment with gesture-based human-computer interaction.
+
+### 🏠 Hands-Free Computing
+
+Interact with applications when physical input is inconvenient.
+
+---
+
+# 🔐 Privacy & Security
+
+NEXUS is designed primarily around local interaction processing.
+
+Camera and microphone inputs are used when corresponding features are enabled.
 
 However:
 
-> **NEXUS is not a biometric authentication system.**
+> ⚠️ NEXUS should **not** be considered a biometric authentication system.
 
-The liveness mechanisms are intended to improve interaction reliability and reduce accidental or spoofed interaction signals.
+The liveness layer is designed as an interaction reliability mechanism rather than a security boundary.
 
-They should **not** be used as a replacement for:
+Do not use NEXUS as a replacement for:
 
 * Password authentication
-* OS security
-* Multi-factor authentication
+* MFA
 * Enterprise identity systems
 * Dedicated biometric authentication
 
 ---
 
-# 🔐 Privacy
-
-NEXUS is designed around local desktop interaction.
-
-Camera and microphone inputs are used for interaction processing when those features are enabled.
-
-Users should review the application's dependencies, permissions, and configuration before deploying NEXUS in sensitive environments.
-
-Do not record or process other people's biometric or voice data without appropriate consent.
-
----
-
 # 🧯 Troubleshooting
 
-## Camera does not open
+### 📷 Camera not detected
 
 Check:
 
@@ -760,213 +813,181 @@ Check:
 files/config.py
 ```
 
-and verify the configured camera index.
-
-Try:
-
-```text
-CAM_INDEX = 0
-```
-
-or another available camera index.
+and verify the camera index.
 
 ---
 
-## Cursor does not move
+### 🖱️ Cursor not responding
 
 Check:
 
 * Camera permissions
-* OS accessibility/input permissions
-* Cursor-control configuration
+* Accessibility permissions
+* OS input permissions
 * Gesture detection
-* Whether another application is capturing the input device
+* Configuration
 
 ---
 
-## Gesture recognition is unstable
+### 👋 Gesture recognition is unstable
 
 Try:
 
-* Improving lighting
-* Keeping the hand inside the camera frame
-* Increasing gesture samples
-* Adjusting smoothing parameters
-* Adjusting pinch thresholds
-* Retraining the custom gesture model
+* Better lighting
+* Clearer hand visibility
+* More training samples
+* Adjusted smoothing
+* Adjusted pinch thresholds
+* Retraining the model
 
 ---
 
-## Wake word does not trigger
+### 🎙️ Voice activation fails
 
 Verify:
 
 * Microphone permissions
-* Correct audio input device
-* Required voice dependencies
+* Correct microphone device
+* Voice dependencies
 * Wake-word configuration
 
 ---
 
-## Custom gesture training fails
+# 📊 Performance
 
-Ensure:
+NEXUS is intended for real-time interaction.
 
-* Enough samples are recorded
-* Gestures are visually distinct
-* The hand remains visible
-* Training data is generated successfully
-* Required ML dependencies are installed
-
----
-
-# 📈 Performance Considerations
-
-Real-time interaction depends on several factors:
+The actual experience depends on:
 
 ```text
 Camera FPS
-     ↓
-Hand Detection
-     ↓
+      ↓
+Detection Speed
+      ↓
 Feature Processing
-     ↓
-Gesture Classification
-     ↓
+      ↓
+Classification
+      ↓
 Filtering
-     ↓
+      ↓
 Action Execution
 ```
 
 Performance can vary based on:
 
-* CPU/GPU capability
+* CPU/GPU
 * Camera resolution
-* Number of hands tracked
-* Lighting conditions
-* Operating system
+* FPS
+* Lighting
+* Number of tracked hands
 * Background applications
-* Model complexity
-
-For smoother interaction, use a reasonable webcam resolution and avoid unnecessary background processing.
+* Operating system
 
 ---
 
 # 🗺️ Roadmap
 
-NEXUS is designed as an extensible research and engineering project.
-
-### ✅ Current
+## ✅ Current
 
 * [x] Real-time hand tracking
-* [x] Gesture-based cursor control
-* [x] Mouse click control
-* [x] Drag interaction
-* [x] Scroll interaction
-* [x] Precision cursor mode
+* [x] Cursor control
+* [x] Left click
+* [x] Right click
+* [x] Drag
+* [x] Scroll
+* [x] Precision mode
 * [x] Custom gesture recording
-* [x] Random Forest gesture classifier
-* [x] Voice wake-word integration
+* [x] Random Forest classifier
+* [x] Voice wake-word support
 * [x] Action dispatcher
 * [x] PySide6 dashboard
-* [x] Lightweight liveness layer
+* [x] Liveness layer
 
-### 🔄 Planned
+## 🔄 In Development
 
-* [ ] Improved temporal gesture recognition
-* [ ] More advanced multimodal fusion
-* [ ] Expanded gesture library
-* [ ] Gesture visualization and analytics
-* [ ] Per-user gesture calibration
-* [ ] Improved cross-platform automation
-* [ ] Configurable gesture profiles
+* [ ] Advanced temporal gesture recognition
+* [ ] Improved multimodal fusion
+* [ ] Better gesture visualization
+* [ ] User-specific calibration
+* [ ] Gesture profiles
 * [ ] Performance telemetry
-* [ ] Plugin-based action system
-* [ ] Optional model upgrade path
-* [ ] Improved accessibility workflows
+* [ ] Expanded action library
+* [ ] Cross-platform improvements
+
+## 🔮 Future
+
+* [ ] Context-aware gesture understanding
+* [ ] Adaptive user models
+* [ ] Advanced AI gesture models
+* [ ] Plugin-based action architecture
+* [ ] Gesture analytics
+* [ ] Personalized interaction profiles
+* [ ] Intelligent desktop agent integration
 
 ---
 
-# 💡 Example Use Cases
+# 🌐 Project Vision
 
-NEXUS can be useful for:
+NEXUS is more than a gesture-control application.
 
-### 🖥️ Desktop Productivity
-
-Hands-free cursor and keyboard interaction.
-
-### 📊 Presentations
-
-Navigate slides without touching the laptop.
-
-### ♿ Accessibility
-
-Explore alternative interaction methods for users who may have difficulty using traditional input devices.
-
-### 🎨 Creative Applications
-
-Use precision cursor mode for fine interaction.
-
-### 🎮 Experimental HCI
-
-Research gesture-driven human-computer interaction.
-
-### 🏠 Hands-Free Computing
-
-Interact with desktop applications when touching a physical device is inconvenient.
-
----
-
-# 🔭 Future Vision
-
-The long-term goal of NEXUS is to evolve from a gesture-control application into an **adaptive desktop interaction platform**.
-
-The envisioned system can combine:
+The long-term vision is:
 
 ```text
-Vision
-  +
-Voice
-  +
-Gesture
-  +
-Context
-  +
-Personalization
-  +
-AI
+             👁️ VISION
+                +
+             🎙️ VOICE
+                +
+             👋 GESTURE
+                +
+             🧠 AI
+                +
+            📍 CONTEXT
+                +
+          👤 PERSONALIZATION
+                │
+                ▼
+       ┌──────────────────┐
+       │      NEXUS       │
+       │ Intelligent HCI  │
+       └────────┬─────────┘
+                │
+                ▼
+        Natural Computing
 ```
 
-to create a more natural human-computer interface.
+The objective is to move desktop interaction from:
 
-Instead of asking users to learn rigid commands, the system can progressively learn how users prefer to interact with their environment.
+> **"Tell the computer exactly what to do."**
+
+toward:
+
+> **"Interact naturally and let the system understand the intent."**
 
 ---
 
-# 🧪 Research Direction
+# 🧪 Research Areas
 
-NEXUS provides a practical foundation for experimentation in:
+NEXUS provides a practical platform for experimentation in:
 
 * Human-Computer Interaction
 * Computer Vision
 * Gesture Recognition
 * Machine Learning
 * Multimodal Interaction
-* Accessibility Engineering
+* Accessibility
 * Intelligent Interfaces
 * Real-Time Systems
 * Desktop Automation
+* Applied AI
 
 ---
 
 # 🤝 Contributing
 
-Contributions, ideas, improvements, and experiments are welcome.
-
-A typical contribution workflow:
+Contributions are welcome.
 
 ```bash
-git clone <repository>
+git clone https://github.com/SaketharamaBana/ASIS-adaptive-screen-interaction-sysytem-NEXUS.git
 ```
 
 Create a branch:
@@ -975,17 +996,33 @@ Create a branch:
 git checkout -b feature/my-feature
 ```
 
-Make your changes, test them locally, and submit a pull request.
+Make your changes, test them, and submit a pull request.
 
-When contributing, please keep modules focused and avoid tightly coupling gesture detection with OS actions.
+When contributing, keep:
+
+* Perception modular
+* Gesture logic independent
+* Actions centralized
+* Configuration separate
+* New features documented
+
+---
+
+# ⭐ Support the Project
+
+If NEXUS is useful or interesting:
+
+⭐ Star the repository
+🍴 Fork the project
+🐛 Report issues
+💡 Suggest improvements
+🤝 Contribute
 
 ---
 
 # 📜 License
 
-This project is distributed under the **MIT License**.
-
-See the repository license file for details.
+NEXUS is distributed under the **MIT License**.
 
 ---
 
@@ -994,34 +1031,33 @@ See the repository license file for details.
 <p align="center">
 
 <a href="https://github.com/SaketharamaBana/ASIS-adaptive-screen-interaction-sysytem-NEXUS">
-<img src="https://img.shields.io/badge/GitHub-NEXUS%20Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repository"/>
+
+<img src="https://img.shields.io/badge/VIEW%20SOURCE-GITHUB-181717?style=for-the-badge&logo=github&logoColor=white"/>
+
 </a>
 
 </p>
 
-**Repository:**
-`SaketharamaBana/ASIS-adaptive-screen-interaction-sysytem-NEXUS`
+<p align="center">
+
+<strong>ASIS-adaptive-screen-interaction-sysytem-NEXUS</strong>
+
+</p>
 
 ---
 
-# 👨‍💻 Project
+<p align="center">
 
-**NEXUS — Adaptive Touchless Interaction & Intelligent Gesture Control System**
+### 👁️ See
 
-Built with:
+### 🧠 Understand
 
-```text
-Python
-OpenCV
-MediaPipe
-PySide6
-scikit-learn
-openWakeWord
-Computer Vision
-Machine Learning
-Desktop Automation
-```
+### ⚡ Execute
+
+### 🚀 NEXUS
+
+</p>
 
 <p align="center">
-  <strong>👋 Interact naturally. 🧠 Let the system understand. ⚡ Control your desktop.</strong>
+<em>Building the future of touchless human-computer interaction.</em>
 </p>
