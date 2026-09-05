@@ -4,85 +4,96 @@
   <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.10+" />
   <img src="https://img.shields.io/badge/OpenCV-4.9+-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" />
   <img src="https://img.shields.io/badge/MediaPipe-Hand%20Tracking-FF6F00?style=for-the-badge" alt="MediaPipe" />
-  <img src="https://img.shields.io/badge/PySide6-GUI-41CD52?style=for-the-badge&logo=qt&logoColor=white" alt="PySide6" />
-  <img src="https://img.shields.io/badge/ML-Random%20Forest-00C853?style=for-the-badge" alt="Random Forest" />
+  <img src="https://img.shields.io/badge/PySide6-Dashboard-41CD52?style=for-the-badge&logo=qt&logoColor=white" alt="PySide6" />
+  <img src="https://img.shields.io/badge/AI-Gesture%20Control-00C853?style=for-the-badge" alt="Gesture AI" />
 </p>
 
 <p align="center">
-  <strong>Adaptive touchless interaction system for desktop control</strong>
+  <strong>Adaptive touchless interaction for desktop control</strong>
 </p>
 
-NEXUS is a real-time multimodal desktop interaction system that turns hand motion,
-voice, and lightweight liveness checks into cursor and system actions. It is
-built around MediaPipe hand tracking, a One Euro smoothing filter, explicit
-gesture state logic, and an optional custom gesture trainer for user-defined
-commands.
+NEXUS is a multimodal human-computer interaction system that lets you control a computer using natural hand gestures, optional voice commands, and lightweight AI-assisted interaction logic. It combines webcam tracking, real-time filtering, custom gesture recognition, and desktop automation into a single touchless control experience.
 
-> Use this project only on a machine where you are comfortable granting camera,
-> microphone, and simulated input access.
+<p align="center">
+  <a href="#quick-start"><img src="https://img.shields.io/badge/Quick%20Start-Get%20Started-0EA5E9?style=for-the-badge" alt="Get started" /></a>
+  <a href="#features"><img src="https://img.shields.io/badge/Features-Explore-8B5CF6?style=for-the-badge" alt="Explore features" /></a>
+  <a href="https://github.com/SaketharamaBana/ASIS-adaptive-screen-interaction-sysytem-NEXUS"><img src="https://img.shields.io/badge/GitHub-Repository-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub repository" /></a>
+</p>
 
-## Highlights
+> Built for desktop interaction workflows where touchless control is useful, such as presentation control, accessibility, and hands-free productivity.
 
-- Real-time hand tracking with MediaPipe Hand Landmarker
-- Smooth cursor control using a One Euro filter
-- Pointer, click, drag, right-click, and scroll gestures
-- Precision mode with a left-hand pinch modifier
-- Offline wake-word detection for "Hey Jarvis"
-- Custom gesture recording and Random Forest training
-- Live desktop dashboard built with PySide6
-- Gesture-to-action routing through a central ActionDispatcher
+## At a glance
 
-## Architecture
+| Area | Capability |
+| --- | --- |
+| Input | Webcam hand tracking, mic wake word, optional face/voice liveness signals |
+| Output | Cursor movement, clicks, drags, scroll, hotkeys, media controls |
+| Intelligence | Gesture state machine + Random Forest custom model |
+| UI | PySide6 dashboard for live monitoring and configuration |
+| Platform | Windows, macOS, Linux desktop environments |
+
+## Why NEXUS
+
+NEXUS is designed to make gesture-driven interaction feel responsive and natural without requiring a physical controller. The project focuses on:
+
+- low-latency cursor control
+- intuitive hand gestures for everyday OS actions
+- modular action routing for future expansion
+- user-defined custom gestures for personalized workflows
+- multimodal fusion between hand motion and voice intent
+
+## Features
+
+<div align="center">
+
+| Feature | Description |
+| --- | --- |
+| Real-time hand tracking | MediaPipe Hand Landmarker detects and tracks hand landmarks from the webcam. |
+| Gesture control | Cursor movement, click, drag, scroll, and precision mode from hand motion. |
+| Voice commands | Offline wake-word detection with openWakeWord for local voice activation. |
+| Custom gesture AI | Record gestures and train a Random Forest model to trigger actions. |
+| Dashboard UI | Control and monitor the system from a clean PySide6 interface. |
+| Modular actions | Centralized dispatcher handles cursor, mouse, hotkeys, screenshot, and media commands. |
+
+</div>
+
+## Core gestures
+
+| Gesture | Trigger | Action |
+| --- | --- | --- |
+| Cursor move | Right index fingertip | Moves the desktop cursor |
+| Left click | Thumb + index pinch | Performs left click |
+| Right click | Thumb + middle pinch | Performs right click |
+| Drag | Hold thumb + index pinch | Mouse drag |
+| Scroll | Thumb + pinky pinch + vertical motion | Mouse wheel scroll |
+| Precision mode | Left-hand pinch | Slower, more controlled cursor movement |
+| Custom action | Trained gesture model | Executes bound action |
+
+## Workflow
 
 ```text
-Webcam + Microphone
-        │
-        ▼
-Hand Tracking + Voice Input
-        │
-        ▼
-Filtering + Gesture State + Custom ML
-        │
-        ▼
+Camera + Microphone
+      ↓
+Hand / Voice Perception
+      ↓
+Gesture State + Feature Filtering
+      ↓
 Action Dispatcher
-        │
-        ▼
-Cursor / Mouse / Scroll / Hotkeys / Media Controls
+      ↓
+Desktop Cursor + Mouse + Hotkeys + Media Control
 ```
 
-## Supported interaction patterns
+## Quick start
 
-- Right hand index fingertip tracks the cursor
-- Quick thumb-index pinch triggers left click
-- Held thumb-index pinch triggers drag
-- Thumb-middle pinch triggers right click
-- Thumb-pinky pinch + vertical motion triggers scroll
-- Left-hand pinch enables precision cursor mode
-- Custom trained gestures can trigger hotkeys or media commands
-
-## Requirements
-
-- Python 3.10+
-- Webcam
-- Optional microphone for wake-word detection
-- Windows/macOS/Linux desktop environment
-
-## Installation
-
-Clone the repository:
+### 1) Clone and install
 
 ```bash
 git clone https://github.com/SaketharamaBana/ASIS-adaptive-screen-interaction-sysytem-NEXUS.git
 cd ASIS-adaptive-screen-interaction-sysytem-NEXUS
-```
-
-Create and activate a virtual environment:
-
-```bash
 python -m venv .venv
 ```
 
-Windows PowerShell:
+Windows:
 
 ```powershell
 .\.venv\Scripts\Activate.ps1
@@ -102,36 +113,32 @@ python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
 
-The MediaPipe hand model downloads automatically on first launch.
-
-## Run the project
-
-From the `files/` directory:
+### 2) Run NEXUS
 
 ```bash
-# Recommended: GUI dashboard
+# GUI dashboard
 python main.py
 
-# Debug mode with OpenCV window
+# Debug view
 python main.py --cli
 ```
 
-Controls in debug mode:
+### 3) Controls
 
 - `q` — quit
 - `c` — reset smoothing and gesture state
 
 ## Custom gesture training
 
-The trainer is designed for local user-defined gestures.
+You can extend NEXUS with your own gestures through the local trainer.
 
 1. Open the dashboard and go to the Trainer tab.
-2. Enter a gesture name.
+2. Enter a gesture label such as `wave` or `peace`.
 3. Record multiple samples from the camera.
-4. Train the Random Forest classifier.
-5. Bind the recognized gesture to an action.
+4. Train the model.
+5. Bind the trained gesture to a hotkey or media action.
 
-You can also use the command-line recorder:
+Command-line example:
 
 ```bash
 cd files
@@ -139,7 +146,7 @@ python recorder.py wave --samples 5 --frames 15
 python trainer.py
 ```
 
-This writes local data to `gesture_data/` and keeps it outside the Git-tracked project files.
+The generated gesture data is stored locally in `gesture_data/` and is not part of the main codebase.
 
 ## Project structure
 
@@ -167,32 +174,30 @@ ASIS-adaptive-screen-interaction-sysytem-NEXUS/
 
 ## Configuration
 
-Most runtime behavior is controlled in [`files/config.py`](files/config.py), including:
+Most tuning parameters live in [`files/config.py`](files/config.py). This includes:
 
-- camera selection
-- gesture thresholds
-- drag timing
+- camera index and frame settings
+- pinch thresholds
+- drag delays
 - scroll sensitivity
-- smoothing parameters
-- custom gesture confidence
+- smoothing filter parameters
+- custom gesture confidence thresholds
 
 ## Troubleshooting
 
-- Camera not detected: try a different `CAM_INDEX` in `files/config.py`
-- Hand model download fails: check your internet connection and retry
-- Cursor not moving: verify OS permissions and accessibility input access
-- Wake-word not triggering: confirm your microphone is connected and available to Python
-- Training not working: record enough samples before training the model
+- Camera not opening: try a different `CAM_INDEX` in `files/config.py`
+- Model download fails: verify internet connectivity and try again
+- Cursor is not responding: check OS accessibility and input permissions
+- Wake-word does not trigger: confirm microphone access and installed dependencies
+- Custom training fails: record enough gesture samples before training the model
 
-## Safety and notes
+## Safety note
 
-NEXUS is a research-oriented interaction tool and is not a full security system.
-The liveness checks are intended as low-cost replay-resistance signals, not a
-complete biometric authentication mechanism.
+NEXUS is a research-oriented interaction system and is not a complete biometric security solution. The liveness modules provide lightweight anti-spoofing signals, but they should not be treated as a standalone authentication system.
 
 ## License
 
-This project is distributed under the MIT license.
+Distributed under the MIT License.
 
 ## Repository
 
